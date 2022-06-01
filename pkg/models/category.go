@@ -12,11 +12,12 @@ const (
 	World
 	Business
 	Technology
+	Entertainment
 	Politics
 )
 
 func (c Category) String() string {
-	categories := [...]string{"uk", "world", "business", "technology", "politics"}
+	categories := [...]string{"uk", "world", "business", "technology", "entertainment", "politics"}
 	if c < UK || c > Politics {
 		return fmt.Sprintf("Category(%d)", int(c))
 	}
