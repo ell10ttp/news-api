@@ -30,7 +30,10 @@ func (app *Model) Routes() http.Handler {
 	router.Use(cors)
 	router.Use(panicRecovery)
 
-	router.HandleFunc("/ping", app.ping)
+	router.HandleFunc("/ping", app.ping).Methods(http.MethodGet)
+
+	source := router.PathPrefix("/source").Subrouter()
+	source.HandleFunc("", app.getSourceList).Methods(http.MethodGet)
 
 	return standardMiddleware.Then(router)
 }
