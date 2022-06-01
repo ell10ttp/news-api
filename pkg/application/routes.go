@@ -34,6 +34,9 @@ func (app *Model) Routes() http.Handler {
 
 	source := router.PathPrefix("/source").Subrouter()
 	source.HandleFunc("", app.getSourceList).Methods(http.MethodGet)
+	source.HandleFunc("", app.postSource).Methods(http.MethodPost)
+	source.HandleFunc("/{sourceId:[0-9]*}", app.getSource).Methods(http.MethodGet)
+	source.HandleFunc("/{sourceId:[0-9]*}/feed", app.parseFeed).Methods(http.MethodGet)
 
 	return standardMiddleware.Then(router)
 }
