@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  news-api:
+    build:
+      context: ../build/package
+      dockerfile: Dockerfile.local
+    volumes:
+      - type: bind
+        source: ../cmd/news
+        target: /app/cmd/
+      - type: bind
+        source: ../pkg
+        target: /app/pkg
+      - type: bind
+        source: ../go.mod
+        target: /app/go.mod
+      - type: bind
+        source: ../go.sum
+        target: /app/go.sum
+    network_mode: "host"
+    environment:
+      - VERSION=${VERSION}
+      - ENVIRONMENT=${VERSION}
+      - LOGGING_LEVEL=${LOGGING_LEVEL}
+    restart: on-failure
+    command: CompileDaemon -log-prefix=false -build="go build -o main /app/cmd/" -command="/app/main" -directory /app

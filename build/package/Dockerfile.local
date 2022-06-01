@@ -1,0 +1,5 @@
+FROM golang:1.18.1-alpine as base
+RUN apk update && \
+    apk upgrade && \
+    apk add build-base git && \
+    go install github.com/githubnemo/CompileDaemon@latest
