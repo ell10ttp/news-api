@@ -36,7 +36,9 @@ func (app *Model) Routes() http.Handler {
 	source.HandleFunc("", app.getSourceList).Methods(http.MethodGet)
 	source.HandleFunc("", app.postSource).Methods(http.MethodPost)
 	source.HandleFunc("/{sourceId:[0-9]*}", app.getSource).Methods(http.MethodGet)
-	source.HandleFunc("/{sourceId:[0-9]*}/feed", app.parseFeed).Methods(http.MethodGet)
+	source.HandleFunc("/{sourceId:[0-9]*}/categories", app.getSourceCategories).Methods(http.MethodGet)
+	source.HandleFunc("/{sourceId:[0-9]*}/feed", app.getFeed).Methods(http.MethodGet)
+	// source.HandleFunc("/{sourceId:[0-9]*}/feed/{category:[a-zA-Z]*}", app.getCategoryFeed).Methods(http.MethodGet)
 
 	return standardMiddleware.Then(router)
 }
