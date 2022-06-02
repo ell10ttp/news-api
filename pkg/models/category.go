@@ -1,6 +1,10 @@
 package models
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+	"strings"
+)
 
 type Category int
 
@@ -22,6 +26,24 @@ func (c Category) String() string {
 		return fmt.Sprintf("Category(%d)", int(c))
 	}
 	return categories[c-1]
+}
+
+func StrToCategory(str string) (Category, error) {
+	switch strings.ToLower(str) {
+	case "uk":
+		return UK, nil
+	case "world":
+		return World, nil
+	case "business":
+		return Business, nil
+	case "technology":
+		return Technology, nil
+	case "entertainment":
+		return Entertainment, nil
+	case "politics":
+		return Politics, nil
+	}
+	return 0, errors.New("category not found")
 }
 
 func (c Category) IsValid() bool {

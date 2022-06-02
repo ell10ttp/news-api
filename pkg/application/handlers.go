@@ -8,9 +8,11 @@ import (
 	"strconv"
 
 	"news-api/pkg/logger"
+	"news-api/pkg/models"
 	"news-api/pkg/newsfeeder"
 
 	"github.com/gorilla/mux"
+	"github.com/mmcdole/gofeed"
 )
 
 func (app *Model) ping(w http.ResponseWriter, r *http.Request) {
@@ -159,6 +161,8 @@ func (app *Model) getFeed(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	fmt.Println("sourceID: ", sourceId)
+
 	source, err := app.SourceAPI.GetSource(intId)
 	if err != nil {
 		app.clientError(w, http.StatusBadRequest, "source id not found")
@@ -169,8 +173,36 @@ func (app *Model) getFeed(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	newsfeeder.GetFeed(source)
+	categoryStr := r.URL.Query().Get("category")
+	category, err := models.StrToCategory(categoryStr)
+	if err != nil {
+		app.clientError(w, http.StatusBadRequest, err.Error())
+		return
+	}
 
+	fmt.Println(category.String())
+	var feed gofeed.Feed
+	if category > models.UK || category < models.Politics { // valid category iota between low and high
+		feedPtr, err := newsfeeder.GetFeedByCategory(source, category)
+		if err != nil {
+			app.clientError(w, http.StatusBadRequest, err.Error())
+			return
+		}
+		if feedPtr != nil {
+			feed = *feedPtr
+		}
+	} else {
+		feedPtr, err := newsfeeder.GetFeed(source)
+		if err != nil {
+			app.clientError(w, http.StatusBadRequest, err.Error())
+			return
+		}
+		if feedPtr != nil {
+			feed = *feedPtr
+		}
+	}
+
+	fmt.Println(feed)
 	response, _ := json.Marshal(source)
 	w.WriteHeader(http.StatusOK)
 	code, err := w.Write(response)
