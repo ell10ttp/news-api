@@ -4,12 +4,15 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"sort"
 	"strconv"
 
 	"news-api/pkg/logger"
+	"news-api/pkg/models"
 	"news-api/pkg/newsfeeder"
 
 	"github.com/gorilla/mux"
+	"github.com/mmcdole/gofeed"
 )
 
 func (app *Model) ping(w http.ResponseWriter, r *http.Request) {
@@ -48,12 +51,11 @@ func (app *Model) postSource(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	type Response struct {
+	response := struct {
 		Action     string `json:"action"`
 		Successful bool   `json:"Successful"`
 		SourceID   int    `json:"sourceId"`
-	}
-	response := Response{
+	}{
 		Action:     "create source",
 		Successful: true,
 		SourceID:   source.ID,
@@ -102,7 +104,7 @@ func (app *Model) getSource(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func (app *Model) parseFeed(w http.ResponseWriter, r *http.Request) {
+func (app *Model) getSourceCategories(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	sourceId := vars["sourceId"]
 	intId, err := strconv.Atoi(sourceId)
@@ -110,6 +112,56 @@ func (app *Model) parseFeed(w http.ResponseWriter, r *http.Request) {
 		app.clientError(w, http.StatusBadRequest, "did not provide integer id for source")
 		return
 	}
+
+	source, err := app.SourceAPI.GetSource(intId)
+	if err != nil {
+		app.clientError(w, http.StatusBadRequest, err.Error())
+		return
+	}
+	if source.ID == 0 {
+		app.clientError(w, http.StatusBadRequest, "source id not found")
+		return
+	}
+
+	catKeys := make([]string, 0, len(source.Categories))
+	for k := range source.Categories {
+		catKeys = append(catKeys, k)
+	}
+	sort.Strings(catKeys)
+
+	fmt.Println("SOURCE FOUND")
+	fmt.Println(source)
+	response := struct {
+		Action             string   `json:"action"`
+		Successful         bool     `json:"successful"`
+		NumberOfCategories int      `json:"numberOfCategories"`
+		Categories         []string `json:"categories"`
+	}{
+		Action:             "retrieve available categories",
+		Successful:         true,
+		NumberOfCategories: len(source.Categories),
+		Categories:         catKeys,
+	}
+
+	formattedResponse, _ := json.Marshal(response)
+	w.WriteHeader(http.StatusOK)
+	code, err := w.Write(formattedResponse)
+	if err != nil {
+		logger.Debug("GENERIC", fmt.Sprintf("failed to write error to responseWriter. int code: %d", code), "", 1)
+		logger.Error("GENERIC", err, 1)
+	}
+}
+
+func (app *Model) getFeed(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	sourceId := vars["sourceId"]
+	intId, err := strconv.Atoi(sourceId)
+	if err != nil {
+		app.clientError(w, http.StatusBadRequest, "did not provide integer id for source")
+		return
+	}
+
+	fmt.Println("sourceID: ", sourceId)
 
 	source, err := app.SourceAPI.GetSource(intId)
 	if err != nil {
@@ -121,8 +173,36 @@ func (app *Model) parseFeed(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	newsfeeder.ParseFeed(source)
+	categoryStr := r.URL.Query().Get("category")
+	category, err := models.StrToCategory(categoryStr)
+	if err != nil {
+		app.clientError(w, http.StatusBadRequest, err.Error())
+		return
+	}
 
+	fmt.Println(category.String())
+	var feed gofeed.Feed
+	if category > models.UK || category < models.Politics { // valid category iota between low and high
+		feedPtr, err := newsfeeder.GetFeedByCategory(source, category)
+		if err != nil {
+			app.clientError(w, http.StatusBadRequest, err.Error())
+			return
+		}
+		if feedPtr != nil {
+			feed = *feedPtr
+		}
+	} else {
+		feedPtr, err := newsfeeder.GetFeed(source)
+		if err != nil {
+			app.clientError(w, http.StatusBadRequest, err.Error())
+			return
+		}
+		if feedPtr != nil {
+			feed = *feedPtr
+		}
+	}
+
+	fmt.Println(feed)
 	response, _ := json.Marshal(source)
 	w.WriteHeader(http.StatusOK)
 	code, err := w.Write(response)

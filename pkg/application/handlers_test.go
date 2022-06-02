@@ -92,6 +92,40 @@ func TestGetSource(t *testing.T) {
 	})
 }
 
+func TestGetSourceCategories(t *testing.T) {
+	t.Run("Returns 200 OK", func(t *testing.T) {
+		app := newTestApplication()
+		ts := testserver.NewTestServer(t, app.Routes())
+		defer ts.Close()
+
+		code, _, _ := ts.Get(t, "/source/1/categories")
+
+		assertStatus(t, http.StatusOK, code)
+	})
+	t.Run("Returns correct response", func(t *testing.T) {
+		app := newTestApplication()
+		ts := testserver.NewTestServer(t, app.Routes())
+		defer ts.Close()
+
+		_, _, body := ts.Get(t, "/source/1/categories")
+
+		type Response struct {
+			Action             string   `json:"action"`
+			Successful         bool     `json:"successful"`
+			NumberOfCategories int      `json:"numberOfCategories"`
+			Categories         []string `json:"categories"`
+		}
+		var got Response
+		fmt.Println(string(body))
+		want := []string{"business", "entertainment", "politics", "technology", "uk", "world"}
+		if err := json.Unmarshal(body, &got); err != nil {
+			t.Fail()
+		}
+		assert.Equal(t, 6, len(got.Categories))
+		assert.Equal(t, want, got.Categories)
+	})
+}
+
 // NewTestApplication create instance of application for testing
 func newTestApplication() *Model {
 	app := Init()
