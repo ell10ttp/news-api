@@ -1,7 +1,6 @@
 package models
 
 import (
-	"errors"
 	"fmt"
 	"strings"
 )
@@ -28,22 +27,22 @@ func (c Category) String() string {
 	return categories[c-1]
 }
 
-func StrToCategory(str string) (Category, error) {
+func StrToCategory(str string) Category {
 	switch strings.ToLower(str) {
 	case "uk":
-		return UK, nil
+		return UK
 	case "world":
-		return World, nil
+		return World
 	case "business":
-		return Business, nil
+		return Business
 	case "technology":
-		return Technology, nil
+		return Technology
 	case "entertainment":
-		return Entertainment, nil
+		return Entertainment
 	case "politics":
-		return Politics, nil
+		return Politics
 	}
-	return 0, errors.New("category not found")
+	return 0
 }
 
 func (c Category) IsValid() bool {

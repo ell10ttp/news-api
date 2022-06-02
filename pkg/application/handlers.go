@@ -174,15 +174,12 @@ func (app *Model) getFeed(w http.ResponseWriter, r *http.Request) {
 	}
 
 	categoryStr := r.URL.Query().Get("category")
-	category, err := models.StrToCategory(categoryStr)
-	if err != nil {
-		app.clientError(w, http.StatusBadRequest, err.Error())
-		return
-	}
+	category := models.StrToCategory(categoryStr)
 
 	fmt.Println(category.String())
 	var feed gofeed.Feed
-	if category > models.UK || category < models.Politics { // valid category iota between low and high
+	if category > models.UK || category < models.Politics {
+		// valid category iota between low and high
 		feedPtr, err := newsfeeder.GetFeedByCategory(source, category)
 		if err != nil {
 			app.clientError(w, http.StatusBadRequest, err.Error())
@@ -192,6 +189,7 @@ func (app *Model) getFeed(w http.ResponseWriter, r *http.Request) {
 			feed = *feedPtr
 		}
 	} else {
+		// an unavailable cat will be 0, therefore will go to default source url 'home'
 		feedPtr, err := newsfeeder.GetFeed(source)
 		if err != nil {
 			app.clientError(w, http.StatusBadRequest, err.Error())
