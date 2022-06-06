@@ -4,7 +4,7 @@ An implementation of a RESTful API to consume a public news feed.
 
 In this implementation, we hold all sources and categories in memory. In an production environment or at larger scale this would be performed in a more stable database. BBC and Sky News are set up as default, with a category model that holds a map of the common news types to the values of the xml feed of their location. This is not consistent across different source providers and the rss feed link should be checked before. All links provided for BBC and Sky News are valid on startup.
 
-# deploying the application
+# Deploying the application
 
 The application uses logging similar style to most SOCs, with common tags for easy extraction by a tool such as Elasticsearch, and includes some debugging provided. In version control, in the [deployments](https://github.com/ell10ttp/news-api/tree/main/deployments) directory, is already held a '.env' file with current environment variables. Deployment is immediately ready to go through.
 
@@ -18,7 +18,7 @@ This will launch a container of the application.
 
 The default server port is 5000. To change this, edit the SERVER_PORT env var in the .env file.
 
-# using the application
+# Using the application
 
 Each Source has an Unique ID held in struct. This is what is used to reference the source in future calls.
 
@@ -45,7 +45,7 @@ curl --request GET http://localhost:5000/source/1
 ```
 
 Articles are held in the `items` json array.
-Thumbnails, if present, are returned as URLs for the browser/app to collect held in the `extensions.thumbnails`.
+Thumbnails, if present, are returned as URLs for the browser/app to collect held in the `extensions.thumbnails` with appropriate attributes. The app/client browser would retieve the jpeg/gif via the `extensions.thumbnails.attrs.url` tag.
 
 To check which categories are available on a source:
 
