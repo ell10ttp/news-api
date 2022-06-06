@@ -62,7 +62,6 @@ Use any of the categories as a url parameter on the retrieval of a news feed e.g
 curl --request GET http://localhost:5000/source/1?category=technology
 ```
 
-
 To return news feed sorted by publish date, using a time.Time comparison:
 ```
 curl --request GET http://localhost:5000/source/1?sort=true
@@ -72,4 +71,13 @@ The above two operations may be combined and are not mutually exclusive and can 
 
 ```
 curl --request GET http://localhost:5000/source/1?sort=true&category=technology
+```
+
+# Testing the application
+
+Currently unit tests have been written for the handler functions to rest for appropriate responses in best-case scenario. Manual testing has been completed for edge-cases, such as not receiving the correct attributes for post requests etc.
+
+To use the current tests, from the parent directory
+```
+go test ./...
 ```
