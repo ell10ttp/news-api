@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"sort"
 	"strconv"
+	"strings"
 
 	"news-api/pkg/logger"
 	"news-api/pkg/models"
@@ -176,7 +177,6 @@ func (app *Model) getFeed(w http.ResponseWriter, r *http.Request) {
 	categoryStr := r.URL.Query().Get("category")
 	category := models.StrToCategory(categoryStr)
 
-	fmt.Println(category.String())
 	var feed gofeed.Feed
 	if category > models.UK || category < models.Politics {
 		// valid category iota between low and high
@@ -198,6 +198,12 @@ func (app *Model) getFeed(w http.ResponseWriter, r *http.Request) {
 		if feedPtr != nil {
 			feed = *feedPtr
 		}
+	}
+
+	// todo: accept multiple queries, add advanced filtering through url param brackets etc
+	sortStr := r.URL.Query().Get("sortBy")
+	if strings.EqualFold(sortStr, "true") {
+		feed = newsfeeder.SortFeedByPublished(feed)
 	}
 
 	fmt.Println(feed)

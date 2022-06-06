@@ -1,0 +1,592 @@
+{
+        "title": "Tech News - Latest Technology and Gadget News | Sky News",
+        "description": "Sky News technology provides you with all the latest tech and gadget news, game reviews, Internet and web news across the globe. Visit us today.",
+        "link": "https://news.sky.com/technology",
+        "feedLink": "https://feeds.skynews.com/feeds/rss/technology.xml",
+        "links": [
+            "https://news.sky.com/technology",
+            "https://feeds.skynews.com/feeds/rss/technology.xml"
+        ],
+        "updated": "Wed, 01 Jun 2022 21:08:00 +0100",
+        "updatedParsed": "2022-06-01T20:08:00Z",
+        "language": "en-GB",
+        "image": {
+            "url": "https://e3.365dm.com/skynews/logo.png",
+            "title": "Tech News - Latest Technology and Gadget News | Sky News"
+        },
+        "copyright": "Copyright 2021, Sky UK. All Rights Reserved.",
+        "categories": [
+            "Sky News"
+        ],
+        "extensions": {
+            "atom": {
+                "link": [
+                    {
+                        "name": "link",
+                        "value": "",
+                        "attrs": {
+                            "href": "https://feeds.skynews.com/feeds/rss/technology.xml",
+                            "rel": "self",
+                            "type": "application/rss+xml"
+                        },
+                        "children": {}
+                    }
+                ]
+            }
+        },
+        "items": [
+            {
+                "title": "Sheryl Sandberg quits as senior executive at Meta after 14 years",
+                "description": "Sheryl Sandberg is stepping down from her post as a senior executive at Meta.",
+                "link": "https://news.sky.com/story/sheryl-sandberg-second-in-command-after-mark-zuckerberg-quits-as-senior-executive-at-meta-12625538",
+                "links": [
+                    "https://news.sky.com/story/sheryl-sandberg-second-in-command-after-mark-zuckerberg-quits-as-senior-executive-at-meta-12625538"
+                ],
+                "published": "Wed, 01 Jun 2022 21:08:00 +0100",
+                "publishedParsed": "2022-06-01T20:08:00Z",
+                "guid": "https://news.sky.com/story/sheryl-sandberg-second-in-command-after-mark-zuckerberg-quits-as-senior-executive-at-meta-12625538",
+                "enclosures": [
+                    {
+                        "url": "https://e3.365dm.com/22/06/70x70/skynews-sheryl-sandberg_5790953.jpg?20220601213333",
+                        "length": "0",
+                        "type": "image/jpeg"
+                    }
+                ],
+                "extensions": {
+                    "media": {
+                        "content": [
+                            {
+                                "name": "content",
+                                "value": "",
+                                "attrs": {
+                                    "type": "image/jpeg",
+                                    "url": "https://e3.365dm.com/22/06/70x70/skynews-sheryl-sandberg_5790953.jpg?20220601213333"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "description": [
+                            {
+                                "name": "description",
+                                "value": "FILE- In this Sept. 5, 2018, file photo, Facebook COO Sheryl Sandberg testifies before the Senate Intelligence Committee hearing on Capitol Hill in Washington. Sandberg, the No. 2 exec at Facebook owner Meta, is stepping down, according to a post Wednesday, June 1, 2022 on her Facebook page. Sandberg has served as chief operating officer at the social media giant for 14 years. (AP Photo/Jose Luis Magana, File)",
+                                "attrs": {
+                                    "type": "html"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "thumbnail": [
+                            {
+                                "name": "thumbnail",
+                                "value": "",
+                                "attrs": {
+                                    "height": "70",
+                                    "url": "https://e3.365dm.com/22/06/70x70/skynews-sheryl-sandberg_5790953.jpg?20220601213333",
+                                    "width": "70"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "US military hackers conducting offensive operations in support of Ukraine",
+                "description": "US military hackers have conducted offensive operations in support of Ukraine, the head of US Cyber Command has told Sky News.",
+                "link": "https://news.sky.com/story/us-military-hackers-conducting-offensive-operations-in-support-of-ukraine-says-head-of-cyber-command-12625139",
+                "links": [
+                    "https://news.sky.com/story/us-military-hackers-conducting-offensive-operations-in-support-of-ukraine-says-head-of-cyber-command-12625139"
+                ],
+                "published": "Wed, 01 Jun 2022 09:13:00 +0100",
+                "publishedParsed": "2022-06-01T08:13:00Z",
+                "guid": "https://news.sky.com/story/us-military-hackers-conducting-offensive-operations-in-support-of-ukraine-says-head-of-cyber-command-12625139",
+                "enclosures": [
+                    {
+                        "url": "https://e3.365dm.com/22/06/70x70/skynews-general-paul-nakasone_5790526.jpg?20220601130007",
+                        "length": "0",
+                        "type": "image/jpeg"
+                    }
+                ],
+                "extensions": {
+                    "media": {
+                        "content": [
+                            {
+                                "name": "content",
+                                "value": "",
+                                "attrs": {
+                                    "type": "image/jpeg",
+                                    "url": "https://e3.365dm.com/22/06/70x70/skynews-general-paul-nakasone_5790526.jpg?20220601130007"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "description": [
+                            {
+                                "name": "description",
+                                "value": "Head of US Cyber Command, General Paul Nakasone. Pic: NATO CCDCOE",
+                                "attrs": {
+                                    "type": "html"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "thumbnail": [
+                            {
+                                "name": "thumbnail",
+                                "value": "",
+                                "attrs": {
+                                    "height": "70",
+                                    "url": "https://e3.365dm.com/22/06/70x70/skynews-general-paul-nakasone_5790526.jpg?20220601130007",
+                                    "width": "70"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Elon Musk tells Tesla workers to return to the office or leave the company",
+                "description": "Elon Musk has told Tesla employees to return to the office or leave the firm, according to a leaked memo.",
+                "link": "https://news.sky.com/story/elon-musk-tells-tesla-workers-to-return-to-the-office-or-leave-the-company-according-to-leaked-memo-12625304",
+                "links": [
+                    "https://news.sky.com/story/elon-musk-tells-tesla-workers-to-return-to-the-office-or-leave-the-company-according-to-leaked-memo-12625304"
+                ],
+                "published": "Wed, 01 Jun 2022 13:33:00 +0100",
+                "publishedParsed": "2022-06-01T12:33:00Z",
+                "guid": "https://news.sky.com/story/elon-musk-tells-tesla-workers-to-return-to-the-office-or-leave-the-company-according-to-leaked-memo-12625304",
+                "enclosures": [
+                    {
+                        "url": "https://e3.365dm.com/22/06/70x70/skynews-elon-musk-tesla-spacex_5790605.jpg?20220601140718",
+                        "length": "0",
+                        "type": "image/jpeg"
+                    }
+                ],
+                "extensions": {
+                    "media": {
+                        "content": [
+                            {
+                                "name": "content",
+                                "value": "",
+                                "attrs": {
+                                    "type": "image/jpeg",
+                                    "url": "https://e3.365dm.com/22/06/70x70/skynews-elon-musk-tesla-spacex_5790605.jpg?20220601140718"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "description": [
+                            {
+                                "name": "description",
+                                "value": "Elon Musk, CEO of Tesla and SpaceX. Pic: AP",
+                                "attrs": {
+                                    "type": "html"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "thumbnail": [
+                            {
+                                "name": "thumbnail",
+                                "value": "",
+                                "attrs": {
+                                    "height": "70",
+                                    "url": "https://e3.365dm.com/22/06/70x70/skynews-elon-musk-tesla-spacex_5790605.jpg?20220601140718",
+                                    "width": "70"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Scientists discover why Neptune and Uranus are different colours despite similarities",
+                "description": "Scientists have explained why Neptune and Uranus are different colours despite having much in common.",
+                "link": "https://news.sky.com/story/scientists-discover-why-neptune-and-uranus-are-different-colours-despite-similarities-12624790",
+                "links": [
+                    "https://news.sky.com/story/scientists-discover-why-neptune-and-uranus-are-different-colours-despite-similarities-12624790"
+                ],
+                "published": "Tue, 31 May 2022 14:14:00 +0100",
+                "publishedParsed": "2022-05-31T13:14:00Z",
+                "guid": "https://news.sky.com/story/scientists-discover-why-neptune-and-uranus-are-different-colours-despite-similarities-12624790",
+                "enclosures": [
+                    {
+                        "url": "https://e3.365dm.com/22/05/70x70/skynews-space-neptune-urnanus_5789789.jpg?20220531151538",
+                        "length": "0",
+                        "type": "image/jpeg"
+                    }
+                ],
+                "extensions": {
+                    "media": {
+                        "content": [
+                            {
+                                "name": "content",
+                                "value": "",
+                                "attrs": {
+                                    "type": "image/jpeg",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-space-neptune-urnanus_5789789.jpg?20220531151538"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "description": [
+                            {
+                                "name": "description",
+                                "value": "EMBARGOED TO 1500 TUESDAY MAY 31 Undated handout photo issued by NASA of Neptune seen from Voyager 2, as scientists have explained why, despite having much in common, Uranus and Neptune have very different appearances. Issue date: Tuesday May 31, 2022.",
+                                "attrs": {
+                                    "type": "html"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "thumbnail": [
+                            {
+                                "name": "thumbnail",
+                                "value": "",
+                                "attrs": {
+                                    "height": "70",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-space-neptune-urnanus_5789789.jpg?20220531151538",
+                                    "width": "70"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "'The future of medicine': Damaged liver treated and kept on ice before transplant in world-first",
+                "description": "A damaged human liver was treated and preserved in a machine for three days before being successfully transplanted into a patient in a world-first operation, researchers have revealed.",
+                "link": "https://news.sky.com/story/the-future-of-medicine-damaged-liver-treated-and-kept-on-ice-before-transplant-in-world-first-12624795",
+                "links": [
+                    "https://news.sky.com/story/the-future-of-medicine-damaged-liver-treated-and-kept-on-ice-before-transplant-in-world-first-12624795"
+                ],
+                "published": "Tue, 31 May 2022 14:29:00 +0100",
+                "publishedParsed": "2022-05-31T13:29:00Z",
+                "guid": "https://news.sky.com/story/the-future-of-medicine-damaged-liver-treated-and-kept-on-ice-before-transplant-in-world-first-12624795",
+                "enclosures": [
+                    {
+                        "url": "https://e3.365dm.com/22/05/70x70/skynews-liver-transplant-science_5789834.jpg?20220531160151",
+                        "length": "0",
+                        "type": "image/jpeg"
+                    }
+                ],
+                "extensions": {
+                    "media": {
+                        "content": [
+                            {
+                                "name": "content",
+                                "value": "",
+                                "attrs": {
+                                    "type": "image/jpeg",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-liver-transplant-science_5789834.jpg?20220531160151"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "description": [
+                            {
+                                "name": "description",
+                                "value": "EMBARGOED TO 1600 TUESDAY MAY 31 Undated handout photo issued by the University Hospital Zurich of Prof. Pierre-Alain Clavien and Prof. Philipp Dutkowski during transplantation of the liver that was treated in a machine. In a world first, a damaged human liver has been treated and preserved in a machine for three days before being successfully transplanted into a patient, researchers say. Issue date: Tuesday May 31, 2022.",
+                                "attrs": {
+                                    "type": "html"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "thumbnail": [
+                            {
+                                "name": "thumbnail",
+                                "value": "",
+                                "attrs": {
+                                    "height": "70",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-liver-transplant-science_5789834.jpg?20220531160151",
+                                    "width": "70"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Meet the smallest ever remote-controlled walking robot",
+                "description": "Engineers have unveiled the smallest remote-controlled walking robot ever created - even tinier than a flea.",
+                "link": "https://news.sky.com/story/meet-the-smallest-ever-remote-controlled-walking-robot-12622380",
+                "links": [
+                    "https://news.sky.com/story/meet-the-smallest-ever-remote-controlled-walking-robot-12622380"
+                ],
+                "published": "Fri, 27 May 2022 10:28:00 +0100",
+                "publishedParsed": "2022-05-27T09:28:00Z",
+                "guid": "https://news.sky.com/story/meet-the-smallest-ever-remote-controlled-walking-robot-12622380",
+                "enclosures": [
+                    {
+                        "url": "https://e3.365dm.com/22/05/70x70/skynews-robot-coin-tiny-crab_5785721.jpg?20220527114832",
+                        "length": "0",
+                        "type": "image/jpeg"
+                    }
+                ],
+                "extensions": {
+                    "media": {
+                        "content": [
+                            {
+                                "name": "content",
+                                "value": "",
+                                "attrs": {
+                                    "type": "image/jpeg",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-robot-coin-tiny-crab_5785721.jpg?20220527114832"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "description": [
+                            {
+                                "name": "description",
+                                "value": "The tiny robot is small enough to stand on the edge of a coin. Pic: John Rogers / Northwestern University",
+                                "attrs": {
+                                    "type": "html"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "thumbnail": [
+                            {
+                                "name": "thumbnail",
+                                "value": "",
+                                "attrs": {
+                                    "height": "70",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-robot-coin-tiny-crab_5785721.jpg?20220527114832",
+                                    "width": "70"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "British coral predicted to expand its range due to climate change",
+                "description": "The iconic species of pink sea fan coral found on some British coasts is expected to expand its range due to climate change, new research shows.",
+                "link": "https://news.sky.com/story/british-coral-predicted-to-expand-its-range-due-to-climate-change-12622463",
+                "links": [
+                    "https://news.sky.com/story/british-coral-predicted-to-expand-its-range-due-to-climate-change-12622463"
+                ],
+                "published": "Fri, 27 May 2022 12:19:00 +0100",
+                "publishedParsed": "2022-05-27T11:19:00Z",
+                "guid": "https://news.sky.com/story/british-coral-predicted-to-expand-its-range-due-to-climate-change-12622463",
+                "enclosures": [
+                    {
+                        "url": "https://e3.365dm.com/22/05/70x70/skynews-coral-climate-change_5788314.jpg?20220529214747",
+                        "length": "0",
+                        "type": "image/jpeg"
+                    }
+                ],
+                "extensions": {
+                    "media": {
+                        "content": [
+                            {
+                                "name": "content",
+                                "value": "",
+                                "attrs": {
+                                    "type": "image/jpeg",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-coral-climate-change_5788314.jpg?20220529214747"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "description": [
+                            {
+                                "name": "description",
+                                "value": "Pink sea fan coral could be forced further north due to climate change. Pic: Jamie Stevens",
+                                "attrs": {
+                                    "type": "html"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "thumbnail": [
+                            {
+                                "name": "thumbnail",
+                                "value": "",
+                                "attrs": {
+                                    "height": "70",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-coral-climate-change_5788314.jpg?20220529214747",
+                                    "width": "70"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Algorithm Queen: Robot paints portrait of Monarch to mark Platinum Jubilee",
+                "description": "A portrait of the Queen painted by a humanoid robot artist has been unveiled ahead of the Platinum Jubilee.",
+                "link": "https://news.sky.com/story/queens-platinum-jubilee-robot-paints-portrait-of-monarch-to-mark-70-years-on-the-throne-12621808",
+                "links": [
+                    "https://news.sky.com/story/queens-platinum-jubilee-robot-paints-portrait-of-monarch-to-mark-70-years-on-the-throne-12621808"
+                ],
+                "published": "Thu, 26 May 2022 12:29:00 +0100",
+                "publishedParsed": "2022-05-26T11:29:00Z",
+                "guid": "https://news.sky.com/story/queens-platinum-jubilee-robot-paints-portrait-of-monarch-to-mark-70-years-on-the-throne-12621808",
+                "enclosures": [
+                    {
+                        "url": "https://e3.365dm.com/22/05/70x70/skynews-ai-da-robot-queen-platinum-jubilee_5784697.jpg?20220526123719",
+                        "length": "0",
+                        "type": "image/jpeg"
+                    }
+                ],
+                "extensions": {
+                    "media": {
+                        "content": [
+                            {
+                                "name": "content",
+                                "value": "",
+                                "attrs": {
+                                    "type": "image/jpeg",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-ai-da-robot-queen-platinum-jubilee_5784697.jpg?20220526123719"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "description": [
+                            {
+                                "name": "description",
+                                "value": "EMBARGOED TO 0001 FRIDAY MAY 27 Undated handout photo issued by Aidan Meller of a portrait of the Queen painted by an ultra-realistic humanoid robot artist, has been unveiled ahead of the Platinum Jubilee. The painting, titled Algorithm Queen, was painted by Ai-Da Robot an artificial intelligence robot built in 2019 that creates drawings, painting, and sculptures. Issue date: Friday May 27, 2022.",
+                                "attrs": {
+                                    "type": "html"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "thumbnail": [
+                            {
+                                "name": "thumbnail",
+                                "value": "",
+                                "attrs": {
+                                    "height": "70",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-ai-da-robot-queen-platinum-jubilee_5784697.jpg?20220526123719",
+                                    "width": "70"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "'World's first' double hand transplant for scleroderma patient stops his 'horrendous' pain",
+                "description": "A man whose hands were left unusable by a rare disease has been given a new lease of life after what is believed to be the world's first double hand transplant for the condition.",
+                "link": "https://news.sky.com/story/briton-has-double-hand-transplant-in-worlds-first-for-scleroderma-patient-12621210",
+                "links": [
+                    "https://news.sky.com/story/briton-has-double-hand-transplant-in-worlds-first-for-scleroderma-patient-12621210"
+                ],
+                "published": "Wed, 25 May 2022 14:11:00 +0100",
+                "publishedParsed": "2022-05-25T13:11:00Z",
+                "guid": "https://news.sky.com/story/briton-has-double-hand-transplant-in-worlds-first-for-scleroderma-patient-12621210",
+                "enclosures": [
+                    {
+                        "url": "https://e3.365dm.com/22/05/70x70/skynews-steven-gallagher-hand-transplant_5783671.jpg?20220525141501",
+                        "length": "0",
+                        "type": "image/jpeg"
+                    }
+                ],
+                "extensions": {
+                    "media": {
+                        "content": [
+                            {
+                                "name": "content",
+                                "value": "",
+                                "attrs": {
+                                    "type": "image/jpeg",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-steven-gallagher-hand-transplant_5783671.jpg?20220525141501"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "description": [
+                            {
+                                "name": "description",
+                                "value": "EMBARGOED TO 0001 THURSDAY MAY 26 Steven Gallagher, from Dreghorn, Ayrshire, is the first person in the world to have a double hand transplant after suffering from the rare disease scleroderma. Picture date: Tuesday May 24, 2022.",
+                                "attrs": {
+                                    "type": "html"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "thumbnail": [
+                            {
+                                "name": "thumbnail",
+                                "value": "",
+                                "attrs": {
+                                    "height": "70",
+                                    "url": "https://e3.365dm.com/22/05/70x70/skynews-steven-gallagher-hand-transplant_5783671.jpg?20220525141501",
+                                    "width": "70"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Forecasters fear 'turbo-charged' Atlantic hurricane season due to 'Loop Current'",
+                "description": "Forecasters are predicting an exceptionally busy Atlantic cyclone season and fear that conditions are ripe to turbo-charge several devastating hurricanes.",
+                "link": "https://news.sky.com/story/forecasters-fear-turbo-charged-atlantic-hurricane-season-due-to-loop-current-in-gulf-of-mexico-12621044",
+                "links": [
+                    "https://news.sky.com/story/forecasters-fear-turbo-charged-atlantic-hurricane-season-due-to-loop-current-in-gulf-of-mexico-12621044"
+                ],
+                "published": "Wed, 25 May 2022 11:00:00 +0100",
+                "publishedParsed": "2022-05-25T10:00:00Z",
+                "guid": "https://news.sky.com/story/forecasters-fear-turbo-charged-atlantic-hurricane-season-due-to-loop-current-in-gulf-of-mexico-12621044",
+                "enclosures": [
+                    {
+                        "url": "https://e3.365dm.com/20/08/70x70/skynews-hurricane-harvey-space-station_5074024.jpg?20200821212109",
+                        "length": "0",
+                        "type": "image/jpeg"
+                    }
+                ],
+                "extensions": {
+                    "media": {
+                        "content": [
+                            {
+                                "name": "content",
+                                "value": "",
+                                "attrs": {
+                                    "type": "image/jpeg",
+                                    "url": "https://e3.365dm.com/20/08/70x70/skynews-hurricane-harvey-space-station_5074024.jpg?20200821212109"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "description": [
+                            {
+                                "name": "description",
+                                "value": "Hurricane Harvey and photographed from the International Space Station as it was bearing down on the Texas coast",
+                                "attrs": {
+                                    "type": "html"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "thumbnail": [
+                            {
+                                "name": "thumbnail",
+                                "value": "",
+                                "attrs": {
+                                    "height": "70",
+                                    "url": "https://e3.365dm.com/20/08/70x70/skynews-hurricane-harvey-space-station_5074024.jpg?20200821212109",
+                                    "width": "70"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "feedType": "rss",
+        "feedVersion": "2.0"
+    }
+    

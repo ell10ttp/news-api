@@ -2,6 +2,7 @@ package newsfeeder
 
 import (
 	"news-api/pkg/models"
+	"sort"
 
 	"github.com/mmcdole/gofeed"
 )
@@ -25,4 +26,11 @@ func GetFeedByCategory(source models.Source, category models.Category) (*gofeed.
 	}
 
 	return feed, nil
+}
+
+func SortFeedByPublished(feed gofeed.Feed) gofeed.Feed {
+	sort.SliceStable(feed.Items, func(i, j int) bool {
+		return feed.Items[i].PublishedParsed.After(*feed.Items[j].PublishedParsed)
+	})
+	return feed
 }
