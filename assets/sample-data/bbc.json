@@ -1,0 +1,483 @@
+{
+    "title": "BBC News - Technology",
+    "description": "BBC News - Technology",
+    "link": "https://www.bbc.co.uk/news/",
+    "links": [
+        "https://www.bbc.co.uk/news/"
+    ],
+    "updated": "Thu, 02 Jun 2022 10:26:21 GMT",
+    "updatedParsed": "2022-06-02T10:26:21Z",
+    "language": "en-gb",
+    "image": {
+        "url": "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+        "title": "BBC News - Technology"
+    },
+    "copyright": "Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.",
+    "generator": "RSS for Node",
+    "items": [
+        {
+            "title": "Sheryl Sandberg to leave Facebook after 14 years",
+            "description": "Her departure comes as the social media company faces challenges, including a slowdown in ad sales.",
+            "link": "https://www.bbc.co.uk/news/business-61666340?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61666340?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Wed, 01 Jun 2022 21:30:04 GMT",
+            "publishedParsed": "2022-06-01T21:30:04Z",
+            "guid": "https://www.bbc.co.uk/news/business-61666340"
+        },
+        {
+            "title": "Elon Musk declares end to remote working at Tesla",
+            "description": "Staff unwilling to abide by new rules can \"pretend to work somewhere else\", says boss.",
+            "link": "https://www.bbc.co.uk/news/business-61666339?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61666339?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Thu, 02 Jun 2022 06:05:08 GMT",
+            "publishedParsed": "2022-06-02T06:05:08Z",
+            "guid": "https://www.bbc.co.uk/news/business-61666339"
+        },
+        {
+            "title": "Ofcom: Tech firms must do more to protect women online",
+            "description": "A study of the UK's online media habits finds women are more likely to be affected by online abuse.",
+            "link": "https://www.bbc.co.uk/news/technology-61648191?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61648191?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Tue, 31 May 2022 23:03:11 GMT",
+            "publishedParsed": "2022-05-31T23:03:11Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61648191"
+        },
+        {
+            "title": "Texas: Supreme Court blocks state's 'de-platforming' law",
+            "description": "The Republican-led state had banned social media companies from censoring users based on their \"views\".",
+            "link": "https://www.bbc.co.uk/news/world-us-canada-61654959?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/world-us-canada-61654959?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Wed, 01 Jun 2022 00:00:22 GMT",
+            "publishedParsed": "2022-06-01T00:00:22Z",
+            "guid": "https://www.bbc.co.uk/news/world-us-canada-61654959"
+        },
+        {
+            "title": "French officials told to abandon gaming Anglicisms",
+            "description": "Use “jeu video de competition” instead of \"e-sports\", language watchdog the Académie Française says.",
+            "link": "https://www.bbc.co.uk/news/technology-61647192?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61647192?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Tue, 31 May 2022 16:55:11 GMT",
+            "publishedParsed": "2022-05-31T16:55:11Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61647192"
+        },
+        {
+            "title": "Report blasts \"manipulative\" video game loot boxes",
+            "description": "Consumer groups from 18 countries in Europe are calling for governments to clamp down on loot boxes.",
+            "link": "https://www.bbc.co.uk/news/technology-61594815?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61594815?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Tue, 31 May 2022 07:21:14 GMT",
+            "publishedParsed": "2022-05-31T07:21:14Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61594815"
+        },
+        {
+            "title": "Could self-driving bikes change how we use cities?",
+            "description": "Autonomous cycles that can be summoned to your doorstep may help reduce transport emissions.",
+            "link": "https://www.bbc.co.uk/news/technology-61524498?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61524498?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Wed, 01 Jun 2022 17:07:38 GMT",
+            "publishedParsed": "2022-06-01T17:07:38Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61524498"
+        },
+        {
+            "title": "Rape victim: It felt like I was being investigated when I reported my assault",
+            "description": "Sex assault victims face intrusive \"digital strip-searches\" with records and phones seized, a report warns.",
+            "link": "https://www.bbc.co.uk/news/uk-61640054?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/uk-61640054?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Tue, 31 May 2022 13:36:11 GMT",
+            "publishedParsed": "2022-05-31T13:36:11Z",
+            "guid": "https://www.bbc.co.uk/news/uk-61640054"
+        },
+        {
+            "title": "Cinemas now accepting digital ID cards",
+            "description": "Young cinemagoers can now prove their age using the Yoti app instead of taking ID documents with them.",
+            "link": "https://www.bbc.co.uk/news/technology-61606477?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61606477?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Sun, 29 May 2022 23:51:34 GMT",
+            "publishedParsed": "2022-05-29T23:51:34Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61606477"
+        },
+        {
+            "title": "What is Google's new skin tone scale?",
+            "description": "Google has introduced a new skin tone scale - what is it and why does it matter?",
+            "link": "https://www.bbc.co.uk/newsround/61633434?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/newsround/61633434?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Tue, 31 May 2022 05:27:44 GMT",
+            "publishedParsed": "2022-05-31T05:27:44Z",
+            "guid": "https://www.bbc.co.uk/newsround/61633434"
+        },
+        {
+            "title": "Twitter fined $150m in US for selling users' data",
+            "description": "Federal investigators say the social media company broke rules on giving personal data to advertisers.",
+            "link": "https://www.bbc.co.uk/news/technology-61606476?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61606476?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Fri, 27 May 2022 14:21:15 GMT",
+            "publishedParsed": "2022-05-27T14:21:15Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61606476"
+        },
+        {
+            "title": "Twitter investor sues Elon Musk and platform over takeover bid",
+            "description": "The lawsuit alleges the multi-billionaire's \"wrongful conduct\" has caused Twitter shares to plunge.",
+            "link": "https://www.bbc.co.uk/news/business-61589229?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61589229?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Fri, 27 May 2022 07:47:43 GMT",
+            "publishedParsed": "2022-05-27T07:47:43Z",
+            "guid": "https://www.bbc.co.uk/news/business-61589229"
+        },
+        {
+            "title": "Jessica Ennis-Hill: Why I now train around my period",
+            "description": "Dame Jessica Ennis-Hill launches an app giving women exercises according to their menstrual cycle.",
+            "link": "https://www.bbc.co.uk/news/technology-61591417?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61591417?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Fri, 27 May 2022 01:08:11 GMT",
+            "publishedParsed": "2022-05-27T01:08:11Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61591417"
+        },
+        {
+            "title": "Facebook owner Meta updates its privacy policy",
+            "description": "But the company says the changes don’t allow Meta to collect, use or share your data in new ways",
+            "link": "https://www.bbc.co.uk/news/technology-61574207?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61574207?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Thu, 26 May 2022 16:04:59 GMT",
+            "publishedParsed": "2022-05-26T16:04:59Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61574207"
+        },
+        {
+            "title": "Google probed by competition watchdog over ad dominance",
+            "description": "The Competition and Markets Authority launches an investigation into Google's advertising practices.",
+            "link": "https://www.bbc.co.uk/news/technology-61594809?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61594809?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Thu, 26 May 2022 14:09:23 GMT",
+            "publishedParsed": "2022-05-26T14:09:23Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61594809"
+        },
+        {
+            "title": "Dyson working on home robots",
+            "description": "The company is setting up a major robotics research centre in the UK.",
+            "link": "https://www.bbc.co.uk/news/technology-61574202?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61574202?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Wed, 25 May 2022 16:51:50 GMT",
+            "publishedParsed": "2022-05-25T16:51:50Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61574202"
+        },
+        {
+            "title": "Female avatar sexually assaulted in Meta VR platform, campaigners say",
+            "description": "Campaigners join calls by some Meta shareholders for an assessment of on potential harms users face.",
+            "link": "https://www.bbc.co.uk/news/technology-61573661?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61573661?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Wed, 25 May 2022 14:32:37 GMT",
+            "publishedParsed": "2022-05-25T14:32:37Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61573661"
+        },
+        {
+            "title": "Tether device aims to detect risky routes for cyclists",
+            "description": "The Tether box collects data of cars passing too close to cyclists, creating a map of hazardous areas.",
+            "link": "https://www.bbc.co.uk/news/technology-61497610?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61497610?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Thu, 26 May 2022 15:56:24 GMT",
+            "publishedParsed": "2022-05-26T15:56:24Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61497610"
+        },
+        {
+            "title": "Newport Wafer Fab: Chinese buyout of UK's biggest chip plant to be reviewed",
+            "description": "The UK government says it will make a national security assessment of the sale of Newport Wafer Fab.",
+            "link": "https://www.bbc.co.uk/news/uk-wales-politics-61585926?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/uk-wales-politics-61585926?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Wed, 25 May 2022 17:04:23 GMT",
+            "publishedParsed": "2022-05-25T17:04:23Z",
+            "guid": "https://www.bbc.co.uk/news/uk-wales-politics-61585926"
+        },
+        {
+            "title": "Cryptocrash: ‘I was arrested for knocking on Luna boss's door'",
+            "description": "A man says he lost millions, and then was arrested for trying to talk to crypto boss Do Kwon.",
+            "link": "https://www.bbc.co.uk/news/technology-61552030?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61552030?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Mon, 23 May 2022 23:59:26 GMT",
+            "publishedParsed": "2022-05-23T23:59:26Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61552030"
+        },
+        {
+            "title": "Airbnb to quit China as lockdowns restrict tourism",
+            "description": "Stays in China made up only 1% of Airbnb's revenue for the last few years, a source said.",
+            "link": "https://www.bbc.co.uk/news/business-61560385?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61560385?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Mon, 23 May 2022 23:42:32 GMT",
+            "publishedParsed": "2022-05-23T23:42:32Z",
+            "guid": "https://www.bbc.co.uk/news/business-61560385"
+        },
+        {
+            "title": "Clearview AI fined in UK for illegally storing facial images",
+            "description": "The facial recognition database firm must pay more than £7.5m and delete data it holds of UK residents.",
+            "link": "https://www.bbc.co.uk/news/technology-61550776?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61550776?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Mon, 23 May 2022 12:19:20 GMT",
+            "publishedParsed": "2022-05-23T12:19:20Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61550776"
+        },
+        {
+            "title": "The sci-fi technology tackling malarial mosquitos",
+            "description": "Gene drive development makes a genetically modified gene that spreads widely within populations.",
+            "link": "https://www.bbc.co.uk/news/business-61505102?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61505102?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Sun, 22 May 2022 23:05:12 GMT",
+            "publishedParsed": "2022-05-22T23:05:12Z",
+            "guid": "https://www.bbc.co.uk/news/business-61505102"
+        },
+        {
+            "title": "Formula milk: Online groups hunt for baby milk during US shortage",
+            "description": "A shortage of infant formula across America has led parents to share supply locations online.",
+            "link": "https://www.bbc.co.uk/news/technology-61524134?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61524134?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Fri, 20 May 2022 23:29:04 GMT",
+            "publishedParsed": "2022-05-20T23:29:04Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61524134"
+        },
+        {
+            "title": "WhatsApp to launch customer-business chat feature",
+            "description": "Cloud-based software will offer more personalised business using the popular messaging app.",
+            "link": "https://www.bbc.co.uk/news/technology-61522053?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61522053?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Fri, 20 May 2022 16:24:41 GMT",
+            "publishedParsed": "2022-05-20T16:24:41Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61522053"
+        },
+        {
+            "title": "Canada to ban China's Huawei and ZTE from its 5G networks",
+            "description": "The UK, US, Australia and New Zealand have also barred the Chinese telecoms equipment makers.",
+            "link": "https://www.bbc.co.uk/news/business-61517729?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61517729?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Fri, 20 May 2022 11:45:35 GMT",
+            "publishedParsed": "2022-05-20T11:45:35Z",
+            "guid": "https://www.bbc.co.uk/news/business-61517729"
+        },
+        {
+            "title": "Electric hydroplane boat: ‘It feels like we’re flying’",
+            "description": "With the hull out of the water, the craft uses 80% less power than a boat would conventionally need.",
+            "link": "https://www.bbc.co.uk/news/technology-61080066?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61080066?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Tue, 12 Apr 2022 11:30:23 GMT",
+            "publishedParsed": "2022-04-12T11:30:23Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61080066"
+        },
+        {
+            "title": "The man turning mud into eco-friendly 'concrete'",
+            "description": "Gnanli Landrou has invented a special powder that turns earth into a greener version of concrete",
+            "link": "https://www.bbc.co.uk/news/stories-61597537?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/stories-61597537?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Fri, 27 May 2022 23:09:05 GMT",
+            "publishedParsed": "2022-05-27T23:09:05Z",
+            "guid": "https://www.bbc.co.uk/news/stories-61597537"
+        },
+        {
+            "title": "The 22-year-old 3D-printing schools",
+            "description": "Maggie Grout has started an NGO that will 3D-print schools where access to education is not guaranteed.",
+            "link": "https://www.bbc.co.uk/news/technology-61588608?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61588608?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Thu, 26 May 2022 23:01:08 GMT",
+            "publishedParsed": "2022-05-26T23:01:08Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61588608"
+        },
+        {
+            "title": "How graphene and algae could help build space habitats",
+            "description": "Scientists are researching how people might construct homes to live on other planets.",
+            "link": "https://www.bbc.co.uk/news/technology-61508992?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61508992?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Thu, 26 May 2022 15:59:34 GMT",
+            "publishedParsed": "2022-05-26T15:59:34Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61508992"
+        },
+        {
+            "title": "Robot developed that’s smaller than a flea",
+            "description": "Researchers at Northwestern University in the United States have created robots less than 1mm big.",
+            "link": "https://www.bbc.co.uk/news/science-environment-61578850?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/science-environment-61578850?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Wed, 25 May 2022 18:02:24 GMT",
+            "publishedParsed": "2022-05-25T18:02:24Z",
+            "guid": "https://www.bbc.co.uk/news/science-environment-61578850"
+        },
+        {
+            "title": "How artificial intelligence 'blew up' tennis",
+            "description": "Coaches now have powerful tools which can find patterns in play that humans would struggle to see.",
+            "link": "https://www.bbc.co.uk/news/business-61609689?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61609689?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Mon, 30 May 2022 23:05:16 GMT",
+            "publishedParsed": "2022-05-30T23:05:16Z",
+            "guid": "https://www.bbc.co.uk/news/business-61609689"
+        },
+        {
+            "title": "The new airlines betting flying is about to take off",
+            "description": "Many carriers went out of business during Covid but several seized a golden opportunity to launch.",
+            "link": "https://www.bbc.co.uk/news/business-61575429?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61575429?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Sun, 29 May 2022 23:10:38 GMT",
+            "publishedParsed": "2022-05-29T23:10:38Z",
+            "guid": "https://www.bbc.co.uk/news/business-61575429"
+        },
+        {
+            "title": "Soaring fertiliser prices force farmers to rethink",
+            "description": "Research into replacements for nitrogen-based fertilisers has been spurred by high prices and climate concerns.",
+            "link": "https://www.bbc.co.uk/news/business-61385111?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61385111?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Thu, 26 May 2022 23:06:44 GMT",
+            "publishedParsed": "2022-05-26T23:06:44Z",
+            "guid": "https://www.bbc.co.uk/news/business-61385111"
+        },
+        {
+            "title": "Could hydrogen ease Germany's reliance on Russian gas?",
+            "description": "Why hydrogen might be one route for Germany to move away from dependence on Russian imports.",
+            "link": "https://www.bbc.co.uk/news/business-61406077?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61406077?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Tue, 24 May 2022 10:45:43 GMT",
+            "publishedParsed": "2022-05-24T10:45:43Z",
+            "guid": "https://www.bbc.co.uk/news/business-61406077"
+        },
+        {
+            "title": "Could contact lenses be the ultimate computer screen?",
+            "description": "Firms are developing smart contact lenses that can project data in front of the user's eye.",
+            "link": "https://www.bbc.co.uk/news/business-61318460?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61318460?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Thu, 19 May 2022 23:03:29 GMT",
+            "publishedParsed": "2022-05-19T23:03:29Z",
+            "guid": "https://www.bbc.co.uk/news/business-61318460"
+        },
+        {
+            "title": "Will swapping out electric car batteries catch on?",
+            "description": "One Chinese carmaker has plans for thousands of stations in Europe where you can switch batteries.",
+            "link": "https://www.bbc.co.uk/news/business-61310513?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61310513?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Mon, 16 May 2022 23:05:24 GMT",
+            "publishedParsed": "2022-05-16T23:05:24Z",
+            "guid": "https://www.bbc.co.uk/news/business-61310513"
+        },
+        {
+            "title": "The new jet set - why private plane usage has soared",
+            "description": "The pandemic led to more people using private jets, but is the increase set to continue?",
+            "link": "https://www.bbc.co.uk/news/business-61391638?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61391638?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Sun, 15 May 2022 23:02:37 GMT",
+            "publishedParsed": "2022-05-15T23:02:37Z",
+            "guid": "https://www.bbc.co.uk/news/business-61391638"
+        },
+        {
+            "title": "Why the volatile price of aluminium matters",
+            "description": "From door frames to aircraft and food packaging - how soaring prices will impact the world economy.",
+            "link": "https://www.bbc.co.uk/news/business-61346885?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61346885?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Thu, 12 May 2022 23:06:49 GMT",
+            "publishedParsed": "2022-05-12T23:06:49Z",
+            "guid": "https://www.bbc.co.uk/news/business-61346885"
+        },
+        {
+            "title": "Why India's poorest children are falling further behind",
+            "description": "Lack of access to smartphones and computers is widening the education gulf in India.",
+            "link": "https://www.bbc.co.uk/news/business-61174482?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61174482?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Mon, 09 May 2022 23:05:24 GMT",
+            "publishedParsed": "2022-05-09T23:05:24Z",
+            "guid": "https://www.bbc.co.uk/news/business-61174482"
+        },
+        {
+            "title": "Is it fair for fantasy football managers to rely on AI?",
+            "description": "Some managers think artificial intelligence helps remove their bias but others think it's cheating.",
+            "link": "https://www.bbc.co.uk/news/business-61257368?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/business-61257368?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Sun, 08 May 2022 22:49:29 GMT",
+            "publishedParsed": "2022-05-08T22:49:29Z",
+            "guid": "https://www.bbc.co.uk/news/business-61257368"
+        },
+        {
+            "title": "£5m Virtual Reality centre launches in Portsmouth",
+            "description": "The university centre received more than £3m in government funding to help businesses create VR.",
+            "link": "https://www.bbc.co.uk/news/technology-61261995?at_medium=RSS\u0026at_campaign=KARANGA",
+            "links": [
+                "https://www.bbc.co.uk/news/technology-61261995?at_medium=RSS\u0026at_campaign=KARANGA"
+            ],
+            "published": "Wed, 04 May 2022 01:10:46 GMT",
+            "publishedParsed": "2022-05-04T01:10:46Z",
+            "guid": "https://www.bbc.co.uk/news/technology-61261995"
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}
