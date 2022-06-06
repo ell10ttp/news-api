@@ -21,6 +21,7 @@ services:
     environment:
       - VERSION=${VERSION}
       - ENVIRONMENT=${VERSION}
+      - SERVER_PORT=${SERVER_PORT}
       - LOGGING_LEVEL=${LOGGING_LEVEL}
     restart: on-failure
     command: CompileDaemon -log-prefix=false -build="go build -o main /app/cmd/" -command="/app/main" -directory /app

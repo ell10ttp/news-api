@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
+	"os"
 
 	"news-api/pkg/application"
 	"news-api/pkg/logger"
@@ -15,7 +16,8 @@ func main() {
 	app := application.Init()
 	app.SetSourceAPI(sourceapi.NewSourceAPI())
 
-	serverPort := ":5000"
+	fmt.Println(os.Getenv("SERVER_PORT"))
+	serverPort := fmt.Sprintf(":%s", os.Getenv("SERVER_PORT"))
 	srv := &http.Server{
 		Addr:    serverPort,
 		Handler: app.Routes(),

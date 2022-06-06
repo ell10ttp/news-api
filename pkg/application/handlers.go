@@ -74,7 +74,6 @@ func (app *Model) postSource(w http.ResponseWriter, r *http.Request) {
 		logger.Debug("GENERIC", fmt.Sprintf("failed to write error to responseWriter. int code: %d", code), "", 1)
 		logger.Error("GENERIC", err, 1)
 	}
-
 }
 
 func (app *Model) getSource(w http.ResponseWriter, r *http.Request) {
@@ -130,8 +129,6 @@ func (app *Model) getSourceCategories(w http.ResponseWriter, r *http.Request) {
 	}
 	sort.Strings(catKeys)
 
-	fmt.Println("SOURCE FOUND")
-	fmt.Println(source)
 	response := struct {
 		Action             string   `json:"action"`
 		Successful         bool     `json:"successful"`
@@ -174,13 +171,11 @@ func (app *Model) getFeed(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	categoryStr := r.URL.Query().Get("category")
-	category := models.StrToCategory(categoryStr)
-
 	var feed gofeed.Feed
-	if category > models.UK || category < models.Politics {
-		// valid category iota between low and high
-		feedPtr, err := newsfeeder.GetFeedByCategory(source, category)
+
+	categoryStr := r.URL.Query().Get("category")
+	if categoryStr == "" {
+		feedPtr, err := newsfeeder.GetFeed(source.URL)
 		if err != nil {
 			app.clientError(w, http.StatusBadRequest, err.Error())
 			return
@@ -189,25 +184,30 @@ func (app *Model) getFeed(w http.ResponseWriter, r *http.Request) {
 			feed = *feedPtr
 		}
 	} else {
-		// an unavailable cat will be 0, therefore will go to default source url 'home'
-		feedPtr, err := newsfeeder.GetFeed(source)
-		if err != nil {
-			app.clientError(w, http.StatusBadRequest, err.Error())
-			return
-		}
-		if feedPtr != nil {
-			feed = *feedPtr
+		category := models.StrToCategory(categoryStr)
+		fmt.Println("category is ", categoryStr, " plus ", category)
+		if category > models.UK || category < models.Politics {
+			// valid category iota between low and high
+			fmt.Println("source is category", source.Categories[category.String()])
+			feedPtr, err := newsfeeder.GetFeed(source.Categories[category.String()])
+			if err != nil {
+				app.clientError(w, http.StatusBadRequest, err.Error())
+				return
+			}
+			if feedPtr != nil {
+				feed = *feedPtr
+			}
 		}
 	}
 
 	// todo: accept multiple queries, add advanced filtering through url param brackets etc
-	sortStr := r.URL.Query().Get("sortBy")
+	sortStr := r.URL.Query().Get("sort")
 	if strings.EqualFold(sortStr, "true") {
 		feed = newsfeeder.SortFeedByPublished(feed)
 	}
 
 	fmt.Println(feed)
-	response, _ := json.Marshal(source)
+	response, _ := json.Marshal(feed.Items)
 	w.WriteHeader(http.StatusOK)
 	code, err := w.Write(response)
 	if err != nil {
