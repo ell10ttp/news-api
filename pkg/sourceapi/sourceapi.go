@@ -2,6 +2,7 @@ package sourceapi
 
 import (
 	"errors"
+	"fmt"
 	"net/url"
 	"news-api/pkg/models"
 
@@ -84,6 +85,10 @@ func (s *SourceAPI) GetSource(sourceId int) (models.Source, error) {
 }
 
 func (s *SourceAPI) CreateSource(sourceMap map[string]interface{}) (models.Source, error) {
+	if err := isCreateSourceRequestValid(sourceMap); err != nil {
+		return models.Source{}, err
+	}
+
 	newSource := models.Source{
 		ID:          nextSourceId(),
 		Name:        sourceMap["Name"].(string),
@@ -101,4 +106,20 @@ func (s *SourceAPI) CreateSource(sourceMap map[string]interface{}) (models.Sourc
 
 	addSource(newSource)
 	return newSource, nil
+}
+
+func isCreateSourceRequestValid(request map[string]interface{}) error {
+	strRequiredFields := []string{"Name", "Description", "Url", "Language", "Country"}
+
+	for _, f := range strRequiredFields {
+		fieldVal, ok := request[f].(string)
+		if len(fieldVal) == 0 {
+			return fmt.Errorf("failed to create source. reason: request %s is a required field", f)
+		}
+		if !ok {
+			return fmt.Errorf("failed to create source. reason: request %v is an invalid type", f)
+		}
+	}
+
+	return nil
 }
