@@ -92,13 +92,49 @@ func TestGetSource(t *testing.T) {
 	})
 }
 
+func TestPostSource(t *testing.T) {
+	t.Run("Returns 200 OK", func(t *testing.T) {
+		app := newTestApplication()
+		ts := testserver.NewTestServer(t, app.Routes())
+		defer ts.Close()
+
+		values := map[string]string{"Name": "test", "Description": "tester", "Url": "http://test.com", "Language": "en-test", "Country": "testland"}
+		jsonValue, _ := json.Marshal(values)
+		code, _, _ := ts.Post(t, "/source", jsonValue)
+		assertStatus(t, http.StatusOK, code)
+	})
+	t.Run("Source ID returns as a valid and is able to be retrieved after the fact", func(t *testing.T) {
+		app := newTestApplication()
+		ts := testserver.NewTestServer(t, app.Routes())
+		defer ts.Close()
+
+		values := map[string]string{"Name": "test", "Description": "tester", "Url": "http://test.com", "Language": "en-test", "Country": "testland"}
+		jsonValue, _ := json.Marshal(values)
+
+		_, _, body := ts.Post(t, "/source", jsonValue)
+
+		type Response struct {
+			Action     string `json:"action"`
+			Successful bool   `json:"Successful"`
+			SourceID   int    `json:"sourceId"`
+		}
+		var resp Response
+		if err := json.Unmarshal(body, &resp); err != nil {
+			t.Fail()
+		}
+		gotSource, _ := app.SourceAPI.GetSource(resp.SourceID)
+
+		assert.Equal(t, gotSource.ID, resp.SourceID)
+	})
+}
+
 func TestGetSourceCategories(t *testing.T) {
 	t.Run("Returns 200 OK", func(t *testing.T) {
 		app := newTestApplication()
 		ts := testserver.NewTestServer(t, app.Routes())
 		defer ts.Close()
 
-		code, _, _ := ts.Get(t, "/source/1/categories")
+		code, _, _ := ts.Get(t, "/source/1/category")
 
 		assertStatus(t, http.StatusOK, code)
 	})
@@ -107,7 +143,7 @@ func TestGetSourceCategories(t *testing.T) {
 		ts := testserver.NewTestServer(t, app.Routes())
 		defer ts.Close()
 
-		_, _, body := ts.Get(t, "/source/1/categories")
+		_, _, body := ts.Get(t, "/source/1/category")
 
 		type Response struct {
 			Action             string   `json:"action"`
